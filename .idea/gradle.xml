@@ -9,6 +9,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/AnddlePlayer-master" />
             <option value="$PROJECT_DIR$/MVPSample-master" />
             <option value="$PROJECT_DIR$/PLDroidPlayerDemo" />
             <option value="$PROJECT_DIR$/app" />
@@ -19,6 +20,7 @@
         <option name="myModules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/AnddlePlayer-master" />
             <option value="$PROJECT_DIR$/MVPSample-master" />
             <option value="$PROJECT_DIR$/PLDroidPlayerDemo" />
             <option value="$PROJECT_DIR$/app" />
