@@ -194,18 +194,14 @@ public class VideoListActivity extends AppCompatActivity implements AdapterView.
         protected void onPostExecute(Void result) {
 
             Log.d(TAG, "Task has been finished");
-
             updateResult();
 
         }
 
         @Override
         protected void onCancelled() {
-
             Log.d(TAG, "Task has been cancelled");
-
             updateResult();
-
         }
 
         private void updateResult()
