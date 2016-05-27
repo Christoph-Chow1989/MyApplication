@@ -14,5 +14,4 @@ public abstract class StringCallback extends Callback<String>
     {
         return response.body().string();
     }
-
 }

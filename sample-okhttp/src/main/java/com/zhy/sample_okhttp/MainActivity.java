@@ -18,6 +18,7 @@ import com.zhy.http.okhttp.callback.FileCallBack;
 import com.zhy.http.okhttp.callback.StringCallback;
 
 import java.io.File;
+import java.io.IOException;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -25,6 +26,7 @@ import java.util.Map;
 import okhttp3.Call;
 import okhttp3.MediaType;
 import okhttp3.Request;
+import okhttp3.Response;
 
 public class MainActivity extends AppCompatActivity
 {
@@ -67,6 +69,9 @@ public class MainActivity extends AppCompatActivity
         {
             Log.e("TAG","onResponse：complete");
             mTv.setText("onResponse:" + response);
+
+            System.out.println("onResponse-------------------------------------"+response);
+
         }
 
         @Override
@@ -92,7 +97,7 @@ public class MainActivity extends AppCompatActivity
 
     public void getHtml(View view)
     {
-        String url = "http://117.34.70.91:8080/scenic/ScenicInfo_findScenicTicket.action";
+        String url = "https://api.github.com/users/octocat/repos";
 //        url="http://www.391k.com/api/xapi.ashx/info.json?key=bd_hyrzjjfb4modhj&size=10&page=1";
         OkHttpUtils
                 .get()

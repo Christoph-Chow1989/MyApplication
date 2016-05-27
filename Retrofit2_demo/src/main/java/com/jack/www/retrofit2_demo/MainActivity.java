@@ -12,6 +12,8 @@ import retrofit2.Retrofit;
 
 public class MainActivity extends AppCompatActivity
 {
+    GitHubService service;
+    Call<List<Repo>> repos;
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
@@ -27,8 +29,9 @@ public class MainActivity extends AppCompatActivity
                 .baseUrl("https://api.github.com/")
                 .build();
 
-        GitHubService service = retrofit.create(GitHubService.class);
-        Call<List<Repo>> repos = service.listRepos("octocat");
+        service = retrofit.create(GitHubService.class);
+        repos = service.listRepos("octocat");
+
         repos.enqueue(new Callback<List<Repo>>(){
 
             @Override
@@ -42,6 +45,5 @@ public class MainActivity extends AppCompatActivity
 
             }
         });
-
     }
 }
