@@ -1,1 +1,1 @@
-include ':app', ':volley', 'MVPSample-master', ':okhttputils', 'sample-okhttp', 'PLDroidPlayerDemo', 'AnddlePlayer-master'
+include ':app', ':volley', ':Retrofit2_demo', 'MVPSample-master', ':okhttputils', 'sample-okhttp', 'PLDroidPlayerDemo', 'AnddlePlayer-master'

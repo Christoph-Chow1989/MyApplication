@@ -92,7 +92,7 @@ public class MainActivity extends AppCompatActivity
 
     public void getHtml(View view)
     {
-        String url = "http://sec.mobile.tiancity.com/server/mobilesecurity/version.xml";
+        String url = "http://117.34.70.91:8080/scenic/ScenicInfo_findScenicTicket.action";
 //        url="http://www.391k.com/api/xapi.ashx/info.json?key=bd_hyrzjjfb4modhj&size=10&page=1";
         OkHttpUtils
                 .get()
@@ -168,7 +168,7 @@ public class MainActivity extends AppCompatActivity
         OkHttpUtils//
                 .post()//
                 .url(url)//
-//                .params(params)//
+                .params(params)//
                 .build()//
                 .execute(new ListUserCallback()//
                 {

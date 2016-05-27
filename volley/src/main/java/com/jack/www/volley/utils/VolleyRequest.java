@@ -5,7 +5,7 @@ import android.content.Context;
 import com.android.volley.AuthFailureError;
 import com.android.volley.Request;
 import com.android.volley.toolbox.StringRequest;
-import com.volleydemo.www.appliaction.MyApplication;
+import com.jack.www.volley.app.MyApplication;
 
 import java.util.Map;
 
