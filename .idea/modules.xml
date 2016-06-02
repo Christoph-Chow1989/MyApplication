@@ -10,11 +10,13 @@
       <module fileurl="file://$PROJECT_DIR$/MyApplication.iml" filepath="$PROJECT_DIR$/MyApplication.iml" />
       <module fileurl="file://$PROJECT_DIR$/PLDroidPlayerDemo/PLDroidPlayerDemo.iml" filepath="$PROJECT_DIR$/PLDroidPlayerDemo/PLDroidPlayerDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/Retrofit2_demo/Retrofit2_demo.iml" filepath="$PROJECT_DIR$/Retrofit2_demo/Retrofit2_demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SimpleNews-master/SimpleNews-master.iml" filepath="$PROJECT_DIR$/SimpleNews-master/SimpleNews-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/UpdateService/UpdateService.iml" filepath="$PROJECT_DIR$/UpdateService/UpdateService.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/assemblyadapter/assemblyadapter.iml" filepath="$PROJECT_DIR$/assemblyadapter/assemblyadapter.iml" />
       <module fileurl="file://$PROJECT_DIR$/okhttputils/okhttputils.iml" filepath="$PROJECT_DIR$/okhttputils/okhttputils.iml" />
       <module fileurl="file://$PROJECT_DIR$/sample-okhttp/sample-okhttp.iml" filepath="$PROJECT_DIR$/sample-okhttp/sample-okhttp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/swipeback/swipeback.iml" filepath="$PROJECT_DIR$/swipeback/swipeback.iml" />
       <module fileurl="file://$PROJECT_DIR$/volley/volley.iml" filepath="$PROJECT_DIR$/volley/volley.iml" />
     </modules>
   </component>

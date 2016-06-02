@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="armeabi-v7a,armeabi"
+    api-level="21"
+    density="xxhdpi"
+    format="7"
+    timestamp="25977324956418" >
+
+    <task
+        name="javac"
+        duration="33" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="43" />
+    <task
+        name="verifier"
+        duration="7" />
+
+    <artifact
+        location="I:\MyStudioWork\MyApplication\UpdateService\build\outputs\apk\UpdateService-debug.apk"
+        type="MAIN" />
+
+    <build timestamp="25977324956418" >
+        <artifact
+            location="I:\MyStudioWork\MyApplication\UpdateService\build\outputs\apk\UpdateService-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>
