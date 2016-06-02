@@ -10,12 +10,15 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/AnddlePlayer-master" />
+            <option value="$PROJECT_DIR$/AssemblyAdapter-master" />
             <option value="$PROJECT_DIR$/IRecyclerView-library" />
             <option value="$PROJECT_DIR$/IRecyclerView-master" />
             <option value="$PROJECT_DIR$/MVPSample-master" />
             <option value="$PROJECT_DIR$/PLDroidPlayerDemo" />
             <option value="$PROJECT_DIR$/Retrofit2_demo" />
+            <option value="$PROJECT_DIR$/UpdateService" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/assemblyadapter" />
             <option value="$PROJECT_DIR$/okhttputils" />
             <option value="$PROJECT_DIR$/sample-okhttp" />
             <option value="$PROJECT_DIR$/volley" />
@@ -25,12 +28,15 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/AnddlePlayer-master" />
+            <option value="$PROJECT_DIR$/AssemblyAdapter-master" />
             <option value="$PROJECT_DIR$/IRecyclerView-library" />
             <option value="$PROJECT_DIR$/IRecyclerView-master" />
             <option value="$PROJECT_DIR$/MVPSample-master" />
             <option value="$PROJECT_DIR$/PLDroidPlayerDemo" />
             <option value="$PROJECT_DIR$/Retrofit2_demo" />
+            <option value="$PROJECT_DIR$/UpdateService" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/assemblyadapter" />
             <option value="$PROJECT_DIR$/okhttputils" />
             <option value="$PROJECT_DIR$/sample-okhttp" />
             <option value="$PROJECT_DIR$/volley" />

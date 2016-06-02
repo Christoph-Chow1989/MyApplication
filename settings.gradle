@@ -1,1 +1,2 @@
-include ':app', ':volley', ':Retrofit2_demo', 'MVPSample-master', ':okhttputils', 'sample-okhttp', 'PLDroidPlayerDemo', 'AnddlePlayer-master', 'IRecyclerView-library', 'IRecyclerView-master'
+include ':app', ':volley', ':Retrofit2_demo', 'MVPSample-master', ':okhttputils', 'sample-okhttp', 'PLDroidPlayerDemo', 'AnddlePlayer-master', 'IRecyclerView-library', 'IRecyclerView-master', ':assemblyadapter', 'AssemblyAdapter-master'
+include ':UpdateService'
