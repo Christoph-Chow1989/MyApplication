@@ -53,5 +53,4 @@ public class ZhuangbiListAdapter extends RecyclerView.Adapter {
             ButterKnife.bind(this, itemView);
         }
     }
-
 }

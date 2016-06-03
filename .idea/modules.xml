@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AnddlePlayer-master/AnddlePlayer-master.iml" filepath="$PROJECT_DIR$/AnddlePlayer-master/AnddlePlayer-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/AssemblyAdapter-master/AssemblyAdapter-master.iml" filepath="$PROJECT_DIR$/AssemblyAdapter-master/AssemblyAdapter-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DouYuTest/DouYuTest.iml" filepath="$PROJECT_DIR$/DouYuTest/DouYuTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/IRecyclerView-library/IRecyclerView-library.iml" filepath="$PROJECT_DIR$/IRecyclerView-library/IRecyclerView-library.iml" />
       <module fileurl="file://$PROJECT_DIR$/IRecyclerView-master/IRecyclerView-master.iml" filepath="$PROJECT_DIR$/IRecyclerView-master/IRecyclerView-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/MVPSample-master/MVPSample-master.iml" filepath="$PROJECT_DIR$/MVPSample-master/MVPSample-master.iml" />
