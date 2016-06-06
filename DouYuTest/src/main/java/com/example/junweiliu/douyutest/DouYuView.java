@@ -141,7 +141,6 @@ public class DouYuView extends ImageView {
         }
     }
 
-
     /**
      * 随机生成生成滑块的XY坐标
      */
