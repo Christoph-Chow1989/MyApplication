@@ -23,19 +23,14 @@ public class RoadDataListModelImpl implements RoadDataListModel
     @Override
     public void GetRoadList(final String road_url, final String type, final GetRoadDataListenter listener)
     {
-
-        OkHttpUtils
-                .get()
-                .url(road_url + "?Type=" + type)
-                .build()
-                .execute(new MyCallback(listener));
+        OkHttpUtils.get().url(road_url +"?Type="+type).build().execute(new MyCallback(listener));
     }
 
     public interface GetRoadDataListenter
     {
         void onSuccess(List<String> mRoadList);
 
-        void OnError(Exception e);
+        void onError(Exception e);
     }
 
     private class MyCallback extends Callback
@@ -71,7 +66,7 @@ public class RoadDataListModelImpl implements RoadDataListModel
         @Override
         public void onError(Call call, Exception e)
         {
-
+            listener.onError(e);
         }
 
         @Override

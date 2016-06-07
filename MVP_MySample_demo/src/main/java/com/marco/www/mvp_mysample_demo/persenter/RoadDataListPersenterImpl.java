@@ -31,10 +31,11 @@ public class RoadDataListPersenterImpl implements RoadDataListPersenter, RoadDat
     public void onSuccess(List<String> mRoadList)
     {
         mJsonShowInText.receiveData(mRoadList);
+        mJsonShowInText.hideLoading();
     }
 
     @Override
-    public void OnError(Exception e)
+    public void onError(Exception e)
     {
         mJsonShowInText.showLoadingFaild(e);
         mJsonShowInText.hideLoading();

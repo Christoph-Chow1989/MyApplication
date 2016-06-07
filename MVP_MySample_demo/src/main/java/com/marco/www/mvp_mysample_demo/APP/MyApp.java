@@ -9,12 +9,12 @@ import java.util.concurrent.TimeUnit;
 
 import okio.Buffer;
 
+
 /**
  * Created by pc on 2016/6/7.
  */
 public class MyApp extends Application
 {
-
     private String CER_12306 = "-----BEGIN CERTIFICATE-----\n" +
             "MIICmjCCAgOgAwIBAgIIbyZr5/jKH6QwDQYJKoZIhvcNAQEFBQAwRzELMAkGA1UEBhMCQ04xKTAn\n" +
             "BgNVBAoTIFNpbm9yYWlsIENlcnRpZmljYXRpb24gQXV0aG9yaXR5MQ0wCwYDVQQDEwRTUkNBMB4X\n" +
@@ -41,4 +41,5 @@ public class MyApp extends Application
                         .inputStream()});
         OkHttpUtils.getInstance().debug("OkHttpUtils").setConnectTimeout(100000, TimeUnit.MILLISECONDS);
     }
+
 }
