@@ -12,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/MyApplication.iml" filepath="$PROJECT_DIR$/MyApplication.iml" />
       <module fileurl="file://$PROJECT_DIR$/PLDroidPlayerDemo/PLDroidPlayerDemo.iml" filepath="$PROJECT_DIR$/PLDroidPlayerDemo/PLDroidPlayerDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/RxJavaSamples-master/RxJavaSamples-master.iml" filepath="$PROJECT_DIR$/RxJavaSamples-master/RxJavaSamples-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RxJoke/RxJoke.iml" filepath="$PROJECT_DIR$/RxJoke/RxJoke.iml" />
       <module fileurl="file://$PROJECT_DIR$/SimpleNews-master/SimpleNews-master.iml" filepath="$PROJECT_DIR$/SimpleNews-master/SimpleNews-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/UpdateService/UpdateService.iml" filepath="$PROJECT_DIR$/UpdateService/UpdateService.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />

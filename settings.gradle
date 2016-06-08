@@ -1,2 +1,2 @@
-include ':app', ':volley',':MVP_MySample_demo', 'MVPSample-master', ':okhttputils', 'sample-okhttp', 'PLDroidPlayerDemo', 'AnddlePlayer-master', 'IRecyclerView-library', 'IRecyclerView-master', ':assemblyadapter', 'AssemblyAdapter-master', ':swipeback', 'SimpleNews-master', 'RxJavaSamples-master', 'DouYuTest'
+include ':app', ':volley', ':MVP_MySample_demo', 'MVPSample-master', ':okhttputils', 'sample-okhttp', 'PLDroidPlayerDemo', 'AnddlePlayer-master', 'IRecyclerView-library', 'IRecyclerView-master', ':assemblyadapter', 'AssemblyAdapter-master', ':swipeback', 'SimpleNews-master', 'RxJavaSamples-master', 'DouYuTest', 'RxJoke'
 include ':UpdateService'
