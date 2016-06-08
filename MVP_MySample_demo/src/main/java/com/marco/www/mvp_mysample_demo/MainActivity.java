@@ -3,6 +3,7 @@ package com.marco.www.mvp_mysample_demo;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
+import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.LinearLayoutManager;
@@ -21,11 +22,13 @@ import java.util.List;
 import butterknife.Bind;
 import butterknife.ButterKnife;
 
-public class MainActivity extends AppCompatActivity implements JsonShowInText
+public class MainActivity extends AppCompatActivity implements JsonShowInText, SwipeRefreshLayout.OnRefreshListener
 {
 
     @Bind(R.id.recyclerview)
     RecyclerView mRecyclerview;
+    @Bind(R.id.sw_layout)
+    SwipeRefreshLayout mSwipeRefreshLayout;
 
     private RoadDataListPersenter mRoadDataListPersenter;
     private LinearLayoutManager mLayoutManager;
@@ -44,7 +47,7 @@ public class MainActivity extends AppCompatActivity implements JsonShowInText
                     mRecyclerview.setLayoutManager(mLayoutManager);
                     mRecyclerview.setItemAnimator(new DefaultItemAnimator());
                     mRecyclerview.setAdapter(myAdapter);
-
+                    mSwipeRefreshLayout.setRefreshing(false);
                     myAdapter.setOnItemClickListener(new MyAdapter.OnItemClickListener()
                     {
                         @Override
@@ -77,6 +80,8 @@ public class MainActivity extends AppCompatActivity implements JsonShowInText
 
     private void initData()
     {
+        mSwipeRefreshLayout.setColorSchemeResources(R.color.colorPrimary);
+        mSwipeRefreshLayout.setOnRefreshListener(this);
         mRoadDataListPersenter = new RoadDataListPersenterImpl(this);
         mRoadDataListPersenter.startGetRoadData(Constant.ROAD_URL, "1");
         mLayoutManager = new LinearLayoutManager(this);
@@ -85,25 +90,20 @@ public class MainActivity extends AppCompatActivity implements JsonShowInText
     @Override
     public void showLoading()
     {
-    }
-
-    @Override
-    public void hideLoading()
-    {
-
+        mSwipeRefreshLayout.measure(View.MEASURED_SIZE_MASK, View.MEASURED_HEIGHT_STATE_SHIFT);
+        mSwipeRefreshLayout.setRefreshing(true);
     }
 
     @Override
     public void showLoadingFaild(Exception e)
     {
         e.printStackTrace();
+        Toast.makeText(this, e.getMessage().toString(), Toast.LENGTH_SHORT).show();
     }
 
     @Override
     public void receiveData(List<String> mRoadList)
     {
-        System.out.println("---------mRoadList----------" + mRoadList);
-
         if (mRoadList == null || mRoadList.size() == 0)
         {
             Toast.makeText(MainActivity.this, "请求失败！", Toast.LENGTH_SHORT).show();
@@ -120,5 +120,12 @@ public class MainActivity extends AppCompatActivity implements JsonShowInText
     {
         super.onDestroy();
         OkHttpUtils.getInstance().cancelTag(this);
+    }
+
+    @Override
+    public void onRefresh()
+    {
+        mCurrentPage = "1";
+        mRoadDataListPersenter.startGetRoadData(Constant.ROAD_URL, mCurrentPage);
     }
 }

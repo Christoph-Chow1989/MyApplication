@@ -8,10 +8,6 @@ import java.util.List;
 public interface JsonShowInText
 {
     void showLoading();
-
-    void hideLoading();
-
     void showLoadingFaild(Exception e);
-
     void receiveData(List<String> mRoadList);
 }
