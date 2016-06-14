@@ -4,14 +4,10 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AnddlePlayer-master/AnddlePlayer-master.iml" filepath="$PROJECT_DIR$/AnddlePlayer-master/AnddlePlayer-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/AssemblyAdapter-master/AssemblyAdapter-master.iml" filepath="$PROJECT_DIR$/AssemblyAdapter-master/AssemblyAdapter-master.iml" />
-      <module fileurl="file://$PROJECT_DIR$/DouYuTest/DouYuTest.iml" filepath="$PROJECT_DIR$/DouYuTest/DouYuTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/IRecyclerView-library/IRecyclerView-library.iml" filepath="$PROJECT_DIR$/IRecyclerView-library/IRecyclerView-library.iml" />
-      <module fileurl="file://$PROJECT_DIR$/IRecyclerView-master/IRecyclerView-master.iml" filepath="$PROJECT_DIR$/IRecyclerView-master/IRecyclerView-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/MVPSample-master/MVPSample-master.iml" filepath="$PROJECT_DIR$/MVPSample-master/MVPSample-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/MyApplication.iml" filepath="$PROJECT_DIR$/MyApplication.iml" />
       <module fileurl="file://$PROJECT_DIR$/RxJavaSamples-master/RxJavaSamples-master.iml" filepath="$PROJECT_DIR$/RxJavaSamples-master/RxJavaSamples-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/SimpleNews-master/SimpleNews-master.iml" filepath="$PROJECT_DIR$/SimpleNews-master/SimpleNews-master.iml" />
-      <module fileurl="file://$PROJECT_DIR$/UpdateService/UpdateService.iml" filepath="$PROJECT_DIR$/UpdateService/UpdateService.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/assemblyadapter/assemblyadapter.iml" filepath="$PROJECT_DIR$/assemblyadapter/assemblyadapter.iml" />
       <module fileurl="file://$PROJECT_DIR$/swipeback/swipeback.iml" filepath="$PROJECT_DIR$/swipeback/swipeback.iml" />

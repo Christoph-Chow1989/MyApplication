@@ -1,2 +1,2 @@
-include ':app', ':volley', 'MVPSample-master', 'AnddlePlayer-master', 'IRecyclerView-library', 'IRecyclerView-master', ':assemblyadapter', 'AssemblyAdapter-master', ':swipeback', 'SimpleNews-master', 'RxJavaSamples-master', 'DouYuTest'
-include ':UpdateService'
+include ':app', ':volley', 'MVPSample-master', 'AnddlePlayer-master',  ':assemblyadapter', 'AssemblyAdapter-master', ':swipeback', 'SimpleNews-master', 'RxJavaSamples-master'
+
