@@ -58,6 +58,9 @@ public class ElementaryFragment extends BaseFragment {
             unsubscribe();
             adapter.setImages(null);
             swipeRefreshLayout.setRefreshing(true);
+
+            System.out.println(searchRb.getText().toString());
+
             search(searchRb.getText().toString());
         }
     }

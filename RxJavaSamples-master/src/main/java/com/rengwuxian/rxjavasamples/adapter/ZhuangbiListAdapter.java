@@ -31,6 +31,7 @@ public class ZhuangbiListAdapter extends RecyclerView.Adapter {
     public void onBindViewHolder(RecyclerView.ViewHolder holder, int position) {
         DebounceViewHolder debounceViewHolder = (DebounceViewHolder) holder;
         ZhuangbiImage image = images.get(position);
+        System.out.println(image.image_url);
         Glide.with(holder.itemView.getContext()).load(image.image_url).into(debounceViewHolder.imageIv);
         debounceViewHolder.descriptionTv.setText(image.description);
     }
